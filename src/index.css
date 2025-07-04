@@ -1,0 +1,37 @@
+header {
+  padding-top: 2rem;
+}
+html {
+  scroll-behavior: smooth;
+}
+body {
+  body {
+      padding-top: 6rem;
+      /* o el alto que tenga tu header */
+    }
+  background-color: #0F1C2E;
+  /* azul oscuro profundo */
+  color: #F5F5F5;
+  font-family: 'Barlow Condensed', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+h1,
+h2,
+h3 {
+  color: #003B73;
+}
+
+a {
+  color: #54BAB9;
+  /* azul claro suave */
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+a:hover {
+  color: #29A19C;
+  /* verde pino */
+}
