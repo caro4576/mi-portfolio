@@ -4,21 +4,33 @@ import './Proyectos.css';
 const proyectos = [
   {
     titulo: 'Café Blog',
-    descripcion: 'Blog visual sobre café, creado con HTML y CSS. Diseño responsive y cálido.',
-    link: 'https://tucafeblog.netlify.app',
-    imagen: '/images/proyecto-cafe.jpg'
+    descripcion: 'Blog visual sobre café, creado con HTML, Js y CSS. Diseño responsive y cálido.',
+    link: 'https://caro4576.github.io/Blog-De-Cafe/',
+   
   },
   {
     titulo: 'UntrefSchool',
     descripcion: 'Web institucional para una escuela primaria, proyecto integrador Untref.',
-    link: 'https://untrefschool.netlify.app',
-    imagen: '/images/untrefschool.jpg'
+    link: 'https://caro4576.github.io/PROYECTO-INTEGRADOR-WEB-UNTREFSCHOOL/',
+    
   },
   {
     titulo: 'Landing Centro Médico',
     descripcion: 'Sitio en desarrollo para un centro de diagnóstico endoscópico. Proyecto real.',
     link: '#',
-    imagen: '/images/landing-medico.jpg'
+    
+  },
+  {
+    titulo: 'Trabajo integrador front-end',
+    descripcion: 'Trabajo practico integrando la api de rick and morty',
+    link: 'https://caro4576.github.io/trabajo-integrador-frontend/',
+    
+  },
+  {
+    titulo: 'proyecto Udemy',
+    descripcion: 'Sitio en desarrollo para un centro de diagnóstico endoscópico. Proyecto real.',
+    link: 'https://caro4576.github.io/trabajo_autodidacta/',
+    
   }
 ];
 

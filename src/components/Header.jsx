@@ -14,14 +14,9 @@ export default function Header() {
 
   return (
     <header className="header">
-      <div className="logo">
-        <img
-          src="/caro-biker.jpg"
-          alt="Carolina Bibbo smiling while sitting on a motorcycle, outdoors in a relaxed and friendly atmosphere"
-        />
-        <span>Carolina Bibbo</span>
-      </div>
-
+      
+      <span  className="logo" >Carolina Bibbo</span>
+      
       <nav className={`nav ${menuAbierto ? 'activo' : ''}`}>
         <a href="#sobre-mi" onClick={cerrarMenu}>Sobre mí</a>
         <a href="#proyectos" onClick={cerrarMenu}>Proyectos</a>

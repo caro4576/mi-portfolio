@@ -4,7 +4,7 @@ import "./Footer.css";
 
 function Footer() {
   return (
-    <footer className="footer"  id="Footer">
+    <footer  id="footer"   className="footer">
       <ul className="footer__links">
         <li>
           <a href="https://www.linkedin.com/in/caro-desarrolladora" target="_blank" rel="noreferrer" aria-label="LinkedIn">
@@ -32,7 +32,7 @@ function Footer() {
           </a>
         </li>
       </ul>
-      <p className="footer__text">© 2025 Carolina Bibbo. Hosted on <a href="https://netlify.com" target="_blank" rel="noreferrer">Netlify</a></p>
+      <p className="footer__text">© 2025 Carolina Bibbo. Hosted on <a href="https://github.com/" target="_blank" rel="noreferrer">GitHub</a></p>
     </footer>
   );
 }
