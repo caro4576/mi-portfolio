@@ -4,7 +4,7 @@ import "./Footer.css";
 
 function Footer() {
   return (
-    <footer className="footer">
+    <footer className="footer"  id="Footer">
       <ul className="footer__links">
         <li>
           <a href="https://www.linkedin.com/in/caro-desarrolladora" target="_blank" rel="noreferrer" aria-label="LinkedIn">

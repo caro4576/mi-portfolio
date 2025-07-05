@@ -15,7 +15,10 @@ export default function Header() {
   return (
     <header className="header">
       <div className="logo">
-        <img src="/caro-biker.jpg" alt="Carolina Bibbo" />
+        <img
+          src="/caro-biker.jpg"
+          alt="Carolina Bibbo smiling while sitting on a motorcycle, outdoors in a relaxed and friendly atmosphere"
+        />
         <span>Carolina Bibbo</span>
       </div>
 
