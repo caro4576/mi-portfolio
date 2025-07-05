@@ -7,7 +7,7 @@ function Footer() {
     <footer  id="footer"   className="footer">
       <ul className="footer__links">
         <li>
-          <a href="https://www.linkedin.com/in/caro-desarrolladora" target="_blank" rel="noreferrer" aria-label="LinkedIn">
+          <a href="https://www.linkedin.com/in/caro-desarrolladora?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BNEt%2FUK0CTJauPXTVcvcnrw%3D%3D" target="_blank" rel="noreferrer" aria-label="LinkedIn">
             <FaLinkedin />
           </a>
         </li>

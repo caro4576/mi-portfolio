@@ -13,7 +13,19 @@ export default function SobreMi() {
     <section id='sobre-mi' style={{ ...styles.section, opacity: visible ? 1 : 0, transform: visible ? 'translateY(0)' : 'translateY(20px)', transition: 'opacity 0.8s ease, transform 0.8s ease' }}>
       <h2 style={styles.title}>Sobre mí</h2>
       <p style={styles.text}>
-        Soy una persona que ama la libertad, la paz, el mar y la montaña. Apunto a lograr mi libertad financiera para aventurarme sin límites. Me apasiona el desarrollo web y crear experiencias digitales que transmitan esa esencia de calma y fuerza.
+        Soy Caro, profesional de la salud en transición al desarrollo web,
+        apasionada por la tecnología y el aprendizaje continuo.
+        Actualmente, me estoy formando en Desarrollo Web Frontend en UNTREF y
+        complemento mi formación con cursos en Udemy sobre JavaScript moderno y desarrollo web</p>
+        <p style={styles.text}>
+        He desarrollado proyectos prácticos, incluyendo una aplicación de Rick an Morty  que consume APIs y ejercicios en TypeScript,
+        todos disponibles en mi GitHub.</p>
+        <p  style={styles.text} >
+        Mi experiencia en salud me ha brindado habilidades de trabajo en equipo y comunicación,
+        que ahora aplico en entornos tecnológicos.
+        Me considero una persona proactiva, siempre en busca de nuevos desafíos que me permitan crecer profesionalmente.
+        Estoy comprometida con el aprendizaje continuo y la mejora constante, lo que me permite adaptarme rápidamente a nuevas tecnologías y metodologías de trabajo.
+        Busco oportunidades para crecer como desarrolladora y contribuir con soluciones innovadoras en equipos dinámicos y colaborativos
       </p>
     </section>
   );
