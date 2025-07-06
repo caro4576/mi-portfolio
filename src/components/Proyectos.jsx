@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useRef, useEffect } from 'react';
 import './Proyectos.css';
 
 const proyectos = [
@@ -6,13 +6,14 @@ const proyectos = [
     titulo: 'Café Blog',
     descripcion: 'Blog visual sobre café, creado con HTML, Js y CSS. Diseño responsive y cálido.',
     link: 'https://caro4576.github.io/Blog-De-Cafe/',
-    imagen: '/img/cafe-blog.jpg'
+    imagen: process.env.PUBLIC_URL + '/img/BlogdeCafe.png'
+
   },
   {
     titulo: 'UntrefSchool',
     descripcion: 'Web institucional para una escuela primaria, proyecto integrador Untref.',
     link: 'https://caro4576.github.io/PROYECTO-INTEGRADOR-WEB-UNTREFSCHOOL/',
-    imagen: '/img/untref.jpg'
+    imagen: process.env.PUBLIC_URL + '/img/Untref-School.png'
   },
   {
     titulo: 'Landing Centro Médico',
@@ -24,18 +25,19 @@ const proyectos = [
     titulo: 'Trabajo integrador front-end',
     descripcion: 'Trabajo práctico integrando la API de Rick and Morty.',
     link: 'https://caro4576.github.io/trabajo-integrador-frontend/',
-    imagen: '/img/rickmorty.jpg'
+    imagen: process.env.PUBLIC_URL +  '/img/rick-Morty.png'
   },
   {
     titulo: 'Proyecto Udemy',
     descripcion: 'Sitio en desarrollo tipo institucional. Proyecto de curso autodidacta.',
     link: 'https://caro4576.github.io/trabajo_autodidacta/',
-    imagen: '/img/udemy.jpg'
+    imagen:  process.env.PUBLIC_URL + '/img/FrontEnd-Store.png'
   }
 ];
 
 export default function Proyectos() {
   const [proyectoActivo, setProyectoActivo] = useState(null);
+  const modalRef = useRef(null);
 
   const abrirModal = (proyecto) => {
     setProyectoActivo(proyecto);
@@ -44,6 +46,23 @@ export default function Proyectos() {
   const cerrarModal = () => {
     setProyectoActivo(null);
   };
+
+  // Detectar clic fuera del modal
+  useEffect(() => {
+    const handleClickOutside = (e) => {
+      if (modalRef.current && !modalRef.current.contains(e.target)) {
+        cerrarModal();
+      }
+    };
+
+    if (proyectoActivo) {
+      document.addEventListener('mousedown', handleClickOutside);
+    }
+
+    return () => {
+      document.removeEventListener('mousedown', handleClickOutside);
+    };
+  }, [proyectoActivo]);
 
   return (
     <section className="proyectos-section" id="proyectos">
@@ -67,7 +86,7 @@ export default function Proyectos() {
 
       {proyectoActivo && (
         <div className="modal">
-          <div className="modal-content">
+          <div className="modal-content" ref={modalRef}>
             <button className="cerrar" onClick={cerrarModal}>✖</button>
             <h3>{proyectoActivo.titulo}</h3>
             <img src={proyectoActivo.imagen} alt={proyectoActivo.titulo} />
@@ -79,6 +98,3 @@ export default function Proyectos() {
     </section>
   );
 }
-
-
-  
