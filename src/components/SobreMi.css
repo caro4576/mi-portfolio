@@ -1,0 +1,29 @@
+.sobre-mi-img {
+    width: 180px;
+    /* tamaño fijo para que se vea redonda */
+    height: 180px;
+    object-fit: cover;
+    /* recorta la imagen para que llene el círculo */
+    border-radius: 50%;
+    /* esto la hace circular */
+    display: block;
+    margin: 0 auto 2rem auto;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+@media (min-width: 768px) {
+    #sobre-mi {
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        gap: 2rem;
+    }
+
+    .sobre-mi-img {
+        margin: 0;
+    }
+
+    .sobre-mi-texto {
+        max-width: 600px;
+    }
+}
