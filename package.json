@@ -1,5 +1,5 @@
 {
-  "name": "mi-portafolio-react",
+  "name": "mi-portfolio",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -40,9 +40,13 @@
       "last 1 safari version"
     ]
   },
+  "homepage": "https://caro4576.github.io/mi-portfolio",
   "devDependencies": {
     "gh-pages": "^6.3.0"
-  },
-  "homepage": "homepage": "https://caro4576.github.io/mi-portfolio"
-
+  }
 }
+
+
+ 
+
+
