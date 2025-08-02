@@ -19,7 +19,7 @@ const proyectos = [
     titulo: 'Landing Centro Médico',
     descripcion: 'Sitio en desarrollo para un centro de diagnóstico endoscópico. Proyecto real.',
     link: 'https://caro4576.github.io/sitio-digestivo/',
-    imagen: process.env.PUBLIC_URL + '/img/ideb.jpg'
+    imagen: process.env.PUBLIC_URL + '/img/ideb.png'
   
   },
   {
