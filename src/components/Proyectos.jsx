@@ -18,8 +18,8 @@ const proyectos = [
   {
     titulo: 'Landing Centro Médico',
     descripcion: 'Sitio en desarrollo para un centro de diagnóstico endoscópico. Proyecto real.',
-    link: 'https://caro4576.github.io/IDEB/',
-   imagen: process.env.PUBLIC_URL + '/img/Screenshot 2025-07-29 at 19-50-44 IDEB - Intituto de Diagnóstico Endoscópico.png'
+    link: 'https://caro4576.github.io/sitio-digestivo/',
+   imagen: process.env.PUBLIC_URL + '/public/img/ideb.png'
   },
   {
     titulo: 'Trabajo integrador front-end',
