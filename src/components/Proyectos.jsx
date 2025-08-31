@@ -47,7 +47,7 @@ const proyectos = [
     titulo: "Proyecto Sass",
     descripcion:
       "Proyecto realizado como parte del curso de Desarrollo Web de Ignacio Bluuweb .",
-    link: "https://caro4576.github.io/proyecto-sass/",
+    link: "https://sasspractica.netlify.app/",
     imagen: process.env.PUBLIC_URL + "/img/sass.png",
   },
 ];
