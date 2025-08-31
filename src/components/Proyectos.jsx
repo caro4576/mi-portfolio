@@ -43,6 +43,13 @@ const proyectos = [
     link: "https://caro4576.github.io/proyectofestivalmusica/",
     imagen: process.env.PUBLIC_URL + "/img/festival-musica.png",
   },
+  {
+    titulo: "Proyecto Sass",
+    descripcion:
+      "Proyecto realizado como parte del curso de Desarrollo Web de Ignacio Bluuweb .",
+    link: "https://caro4576.github.io/proyecto-sass/",
+    imagen: process.env.PUBLIC_URL + "/img/sass.png",
+  },
 ];
 
 export default function Proyectos() {

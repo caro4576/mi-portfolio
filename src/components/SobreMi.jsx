@@ -20,7 +20,7 @@ export default function SobreMi() {
       }}>
       <img
         className="sobre-mi-img"
-        src={process.env.PUBLIC_URL + "/img/logo.png"}
+        src={process.env.PUBLIC_URL + "/img/caro-biker.jpg"}
         alt="Foto de Carolina"
       />
 
@@ -29,20 +29,20 @@ export default function SobreMi() {
         <p style={styles.text}>🌿Soy caro!!!</p>
         <p style={styles.text}>
           Web Developer en crecimiento, me apasiona transformar ideas en
-          experiencias digitales claras, atractivas y funcionales. Disfruto del
+          experiencias digitales claras, atractivas y funcionales.Disfruto del
           proceso creativo de unir diseño minimalista con código limpio, siempre
-          buscando que cada detalle sume a la experiencia del usuario. 🚀
+          buscando que cada detalle sume a la experiencia del usuario.💻
         </p>
         <p style={styles.text}>
-          Actualmente sigo expandiendo mis conocimientos en HTML, CSS,
-          JavaScript y React, creando proyectos propios que reflejan mi
-          evolución y curiosidad por la tecnología.
+          Actualmente sigo expandiendo mis conocimientos en HTML, CSS,Sass,
+          Bootstrap,Node.js JavaScript y React, creando proyectos propios que
+          reflejan mi evolución y curiosidad por la tecnología.
         </p>
 
         <p style={styles.text}>
-          ✨ Me definen la proactividad, proactividad, la creatividad y la
-          adaptabilidad. Creo en el aprendizaje continuo como motor para crecer
-          y en la tecnología como puente para generar impacto positivo.
+          ✨ Me definen la proactividad y la adaptabilidad. Creo en el
+          aprendizaje continuo como motor para crecer y en la tecnología como
+          puente para generar impacto positivo.
         </p>
       </div>
     </section>
