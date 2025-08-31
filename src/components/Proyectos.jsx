@@ -27,7 +27,7 @@ const proyectos = [
     titulo: "Trabajo integrador front-end",
     descripcion: "Trabajo práctico integrando la API de Rick and Morty.",
     link: "https://caro4576.github.io/trabajo-integrador-frontend/",
-    imagen: process.env.PUBLIC_URL + "/img/rick-Morty.png",
+    imagen: process.env.PUBLIC_URL + "/img/rickandmorty.png",
   },
   {
     titulo: "Proyecto Udemy",
