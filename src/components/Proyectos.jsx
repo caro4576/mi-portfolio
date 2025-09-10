@@ -55,7 +55,7 @@ const proyectos = [
     descripcion:
       "Este es un proyecto de un sitio de e-commerce básico y funcional, creado con **HTML, CSS y JavaScript aplicando conceptos clave de desarrollo web como la manipulación del DOM, la gestión de datos asíncrona (**AJAX**) y la persistencia de datos del lado del cliente (**localStorage**) para construir una tienda virtual sencilla pero interactiva.",
     link: "https://caro4576.github.io/proyectoEcomerce/index.html",
-    imagen: process.env.PUBLIC_URL + "/img/Screenshot 2025-09-10 at 13-36-36 Carrito.png" + "/img/Screenshot 2025-09-10 at 13-37-42 Detalle del Producto.png ",
+    imagen: process.env.PUBLIC_URL +"/img/Screenshot 2025-09-10 at 13-37-42 Detalle del Producto.png ",
   },
 ];
 
