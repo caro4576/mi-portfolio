@@ -7,10 +7,14 @@ import "./Skills.css";
 const skills = [
   { nombre: "HTML5", nivel: "Sólido", icono: "📄" },
   { nombre: "CSS3", nivel: "Sólido", icono: "🎨" },
+  { nombre: "Bootstrap", nivel: "Sólido", icono: "🟣" },
+  { nombre: "Tailwind CSS", nivel: "Sólido", icono: "🎨" },
   { nombre: "JavaScript", nivel: "Práctico", icono: "⚙️" },
   { nombre: "React", nivel: "Aprendiendo", icono: "⚛️" },
+  { nombre: "Astro", nivel: "Intermedio", icono: "🌠" },
   { nombre: "Git / GitHub", nivel: "Práctico", icono: "🛠️" },
-  { nombre: "Diseño Responsivo", nivel: "Sólido", icono: "📱" }
+  { nombre: "Diseño Responsivo", nivel: "Sólido", icono: "📱" },
+  { nombre: "WordPress", nivel: "Sólido", icono: "🌍" },
 ];
 
 function Skills() {

@@ -20,7 +20,7 @@ export default function SobreMi() {
       }}>
       <img
         className="sobre-mi-img"
-        src={process.env.PUBLIC_URL + "/img/caro-biker.jpg"}
+        src={process.env.PUBLIC_URL + "/img/caro.jpg"}
         alt="Foto de Carolina"
       />
 
